@@ -11,13 +11,14 @@ body {
 body {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
-    background-color: rgba(54, 77, 204);
+    background-color: red;
 }
 
 .avatar {
     width: 80px;
     border: 3px solid, #ffffff;
     border-radius: 50%;
+    box-shadow: 0 0 20px white;
 }
 
 h1 {
@@ -34,4 +35,50 @@ h2 {
 .profile {
     margin-top: 20px;
     text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    list-style: none;
+}
+
+.social img {
+    width: 33px;
+}
+
+.link-list {
+    list-style: none;
+}
+
+.link-list li {
+    margin: 10px 20px;
+}
+
+.link-list li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.link-list li a span {
+    color: gray;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.link-list li a.active {
+    box-shadow: 0 0 20px white;
+    color:red;
+    text-align: left;
+}
+
+.link-list.second {
+    margin-top: 30px;
 }
