@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html, 
+html,
 body {
     height: 100%;
 }
@@ -11,7 +11,7 @@ body {
 body {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
-    background-color: red;
+    background-color: darkred;
 }
 
 .avatar {
@@ -26,10 +26,12 @@ h1 {
     font-weight: 100;
     font-size: 24px;
     margin-bottom: 2px;
+    color: black;
 }
 
 h2 {
     font-size: 16px;
+    color: black;
 }
 
 .profile {
@@ -75,7 +77,7 @@ h2 {
 
 .link-list li a.active {
     box-shadow: 0 0 20px white;
-    color:red;
+    color: red;
     text-align: left;
 }
 
