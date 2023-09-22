@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', sans-serif;
+    box-sizing: border-box;
+}
+
 body {
     background: url("./IMG/background.png") no-repeat;
     background-size: cover;
@@ -65,6 +72,11 @@ input[type="email"] {
     margin-right: 5px;
 }
 
+input::placeholder {
+    color: gray;
+    margin: 10px;
+}
+
 input[type="checkbox"] {
     width: 20px;
     height: 15px;
@@ -72,4 +84,27 @@ input[type="checkbox"] {
     border: 1px solid white;
     margin: 10px;
     margin-right: 5px;
+}
+
+input[type="checkbox"]:hover {
+    background: rgb(37, 129, 200);
+}
+
+.content-form button {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    background: rgb(37, 129, 200);
+    color: rgb(243, 234, 234);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    margin-top: 25px;
+    box-shadow: rgb(56, 55, 55);
+}
+
+.content-form button:hover {
+    background: rgb(28, 216, 59);
 }
